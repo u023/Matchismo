@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2EDCFC1CED466B00C355B4 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2EDCFB1CED466B00C355B4 /* Deck.m */; };
+		4D2EDCFF1CED46F800C355B4 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2EDCFE1CED46F800C355B4 /* Card.m */; };
 		4D83F0E21CE19F6D0067FAC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D83F0E11CE19F6D0067FAC1 /* main.m */; };
 		4D83F0E51CE19F6D0067FAC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D83F0E41CE19F6D0067FAC1 /* AppDelegate.m */; };
 		4D83F0E81CE19F6D0067FAC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D83F0E71CE19F6D0067FAC1 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D2EDCFA1CED466B00C355B4 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		4D2EDCFB1CED466B00C355B4 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		4D2EDCFD1CED46F800C355B4 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		4D2EDCFE1CED46F800C355B4 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		4D83F0DD1CE19F6D0067FAC1 /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D83F0E11CE19F6D0067FAC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D83F0E31CE19F6D0067FAC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D2EDCF91CED45ED00C355B4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4D2EDCFA1CED466B00C355B4 /* Deck.h */,
+				4D2EDCFB1CED466B00C355B4 /* Deck.m */,
+				4D2EDCFD1CED46F800C355B4 /* Card.h */,
+				4D2EDCFE1CED46F800C355B4 /* Card.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		4D83F0D41CE19F6D0067FAC1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 		4D83F0DF1CE19F6D0067FAC1 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
+				4D2EDCF91CED45ED00C355B4 /* model */,
 				4D83F0E61CE19F6D0067FAC1 /* ViewController.h */,
 				4D83F0E71CE19F6D0067FAC1 /* ViewController.m */,
 				4D83F0E91CE19F6D0067FAC1 /* Main.storyboard */,
@@ -270,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2EDCFF1CED46F800C355B4 /* Card.m in Sources */,
+				4D2EDCFC1CED466B00C355B4 /* Deck.m in Sources */,
 				4D83F0E81CE19F6D0067FAC1 /* ViewController.m in Sources */,
 				4D83F0E51CE19F6D0067FAC1 /* AppDelegate.m in Sources */,
 				4D83F0E21CE19F6D0067FAC1 /* main.m in Sources */,
@@ -498,6 +518,7 @@
 				4D83F10C1CE19F6D0067FAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D83F10D1CE19F6D0067FAC1 /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				4D83F10F1CE19F6D0067FAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D83F1101CE19F6D0067FAC1 /* Build configuration list for PBXNativeTarget "MatchismoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				4D83F1121CE19F6D0067FAC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
